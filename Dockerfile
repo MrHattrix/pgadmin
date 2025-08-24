@@ -16,8 +16,8 @@ RUN curl https://www.pgadmin.org/static/packages_pgadmin_org.pub | apt-key add -
 # Configure web mode
 RUN /usr/pgadmin4/bin/setup-web.sh --yes
 
-ENV PGADMIN_DEFAULT_EMAIL=admin@admin.com
-ENV PGADMIN_DEFAULT_PASSWORD=admin
+ENV PGADMIN_DEFAULT_EMAIL=talhajawed9@gmail.com
+ENV PGADMIN_DEFAULT_PASSWORD=admin.1@3
 
 EXPOSE 80
 
